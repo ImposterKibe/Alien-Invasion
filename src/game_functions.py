@@ -3,8 +3,8 @@ from time import sleep
 
 import pygame
 
-from src.alien import Alien
-from src.bullet import Bullet
+from alien import Alien
+from bullet import Bullet
 
 
 def update_aliens(sett, stats, sb, screen, ship, aliens, bullets):
